@@ -25,11 +25,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  directors = []
-  director_index = 0
-  while director_index < source.length do
-    directors << source[director_index]# Write this implementation
-  end
+  directors_totals(source).keys
 
 end
 
